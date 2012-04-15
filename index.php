@@ -11,5 +11,7 @@
 		<input type="button" onclick="shorten(url.value,tag.value)" value="Shorten it!"/>
 		<br><br>
 		<div id="result"></div>
+		<br><br>
+		~~~ Works only on Chrome as of now ~~~
 	</body>
 </html>
