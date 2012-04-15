@@ -11,7 +11,7 @@ if (mysql_query('CREATE TABLE IF NOT EXISTS `links` (
 	echo "The Simple(st) URL shortner has been installed. Go ahead and start using it.";
 }
 else {
-	"Something wrong with the database connection. Please check the config file located in the _ (underscore) directory";
+	echo "Something wrong with the database connection. Please check the config file located in the _ (underscore) directory";
 }
 
 ?>
