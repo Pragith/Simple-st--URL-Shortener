@@ -1,0 +1,26 @@
+Simple(st) URL Shortner
+_______________________
+
+Author: Pragith
+Website: http://pragith.net
+Contact: @PragithP , pragith@pragith.net
+
+Version: 1.0
+
+Description:
+
+This is a very simple and easy to use URL Shortner written on PHP, HTML & Javascript.
+It uses jQuery for displaying messages & GET operations.
+Also uses mod_rewrite for tags. 
+
+!!! Make sure mod_rewrite is switch ON in your Apache server !!!
+
+Installaion:
+1) Edit config.php located in "_" directory
+2) Go to <URL>/install.php
+
+
+Upcoming changes:
+
+-Reduce length of automatically generated tags
+-Styling (if you fork and do it, I'll kiss you!)
