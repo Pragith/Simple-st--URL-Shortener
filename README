@@ -1,4 +1,4 @@
-Simple(st) URL Shortner
+Simple(st) URL Shortener
 _______________________
 
 Author: Pragith
@@ -15,7 +15,7 @@ Demo : http://pragith.net/url
 
 Description:
 
-This is a very simple and easy to use URL Shortner written in PHP, HTML & Javascript.
+This is a very simple and easy to use URL Shortener written in PHP, HTML & Javascript.
 It uses jQuery for displaying messages & GET operations.
 Also uses mod_rewrite for tags. 
 
