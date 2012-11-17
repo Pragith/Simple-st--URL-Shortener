@@ -1,62 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Simple(st) URL Shortener by Pragith</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Simple(st) URL Shortener : This is a very simple and easy to use URL Shortener written in PHP, HTML &amp; Javascript. It uses jQuery for displaying messages &amp; GET operations. Also uses mod_rewrite for tags. " />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Simple(st) URL Shortener</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/Pragith/Simple-st--URL-Shortener">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/Pragith/Simple-st--URL-Shortener/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/Pragith/Simple-st--URL-Shortener/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Pragith/Simple-st--URL-Shortener">View on GitHub</a>
 
-      <section>
-        <div id="title">
-          <h1>Simple(st) URL Shortener</h1>
-          <p>This is a very simple and easy to use URL Shortener written in PHP, HTML &amp; Javascript. It uses jQuery for displaying messages &amp; GET operations. Also uses mod_rewrite for tags. </p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/Pragith">Pragith</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
+          <h1 id="project_title">Simple(st) URL Shortener</h1>
+          <h2 id="project_tagline">This is a very simple and easy to use URL Shortener written in PHP, HTML &amp; Javascript. It uses jQuery for displaying messages &amp; GET operations. Also uses mod_rewrite for tags. </h2>
 
-        <p>Version: 1.0</p>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Pragith/Simple-st--URL-Shortener/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Pragith/Simple-st--URL-Shortener/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-<p>~~~ Works only on Chrome as of now ~~~</p>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Version</h3>
 
-<p>Demo : <a href="http://pragith.net/url">http://pragith.net/url</a></p>
+<p>1.0</p>
 
-<p>Description:</p>
+<p><strong><em>Works only on Chrome as of now</em></strong></p>
+
+<h3>Demo</h3>
+
+<p><a href="http://pragith.net/url">http://pragith.net/url</a></p>
+
+<h3>Description</h3>
 
 <p>This is a very simple and easy to use URL Shortener written in PHP, HTML &amp; Javascript.
 It uses jQuery for displaying messages &amp; GET operations.
 Also uses mod_rewrite for tags. </p>
 
-<p>!!! Make sure mod_rewrite is switched ON in your Apache server !!!</p>
+<p><strong>_Make sure mod_rewrite is turned ON in your Apache server</strong>_</p>
 
-<p>Installaion:
-1) Edit config.php located in "_" directory
+<h3>Installation</h3>
+
+<p>1) Edit config.php located in "_" directory
 2) Go to /install.php</p>
 
-<p>Upcoming changes:</p>
+<h3>Upcoming changes</h3>
 
 <p>-Reduce length of automatically generated tags
 -Styling (if you fork and do it, I'll kiss you!)
@@ -64,11 +62,19 @@ Also uses mod_rewrite for tags. </p>
 
 <p>Author: Pragith
 Website: <a href="http://pragith.net">http://pragith.net</a>
-Contact: @PragithP , <a href="mailto:pragith@pragith.net">pragith@pragith.net</a></p>
+Contact: <a href="http://twitter.com/?status=@PragithP%20Hi!">@PragithP</a> , <a href="mailto:pragith@pragith.net">pragith@pragith.net</a></p>
       </section>
-
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Simple(st) URL Shortener maintained by <a href="https://github.com/Pragith">Pragith</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
