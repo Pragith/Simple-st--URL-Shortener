@@ -1,25 +1,26 @@
-Version: 1.0
+###Version
+1.0
+
+___Works only on Chrome as of now___
 
 
-~~~ Works only on Chrome as of now ~~~
+###Demo 
+http://pragith.net/url
 
-
-Demo : http://pragith.net/url
-
-Description:
+###Description
 
 This is a very simple and easy to use URL Shortener written in PHP, HTML & Javascript.
 It uses jQuery for displaying messages & GET operations.
 Also uses mod_rewrite for tags. 
 
-!!! Make sure mod_rewrite is switched ON in your Apache server !!!
+___Make sure mod_rewrite is turned ON in your Apache server___
 
-Installaion:
+###Installation
 1) Edit config.php located in "_" directory
 2) Go to <URL>/install.php
 
 
-Upcoming changes:
+###Upcoming changes
 
 -Reduce length of automatically generated tags
 -Styling (if you fork and do it, I'll kiss you!)
@@ -28,4 +29,4 @@ Upcoming changes:
 
 Author: Pragith
 Website: http://pragith.net
-Contact: @PragithP , pragith@pragith.net
+Contact: [@PragithP](http://twitter.com/?status=@PragithP%20Hi!) , pragith@pragith.net
